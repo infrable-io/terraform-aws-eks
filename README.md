@@ -16,3 +16,4 @@ This Terraform module provides an opinionated deployment of Amazon EKS. It compr
 * Authentication via AWS IAM
 * Authorization via native Kubernetes Role Based Access Control (RBAC)
 * AWS Application Load Balancer (ALB) for Kubernetes Ingress
+* Amazon EKS add-ons (CoreDNS, kube-proxy, and Amazon VPC CNI)
