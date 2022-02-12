@@ -5,7 +5,24 @@ This guide provides a comprehensive walkthrough for creating, managing, and oper
 The following sections provide a brief overview of each topic with references to supporting documentation in `walkthrough/`.
 
 ## Table of Contents
+* [Clusters](#clusters)
+* [Nodes](#nodes)
+* [Storage](#storage)
+* [Networking](#networking)
+* [Workloads](#workloads)
 * [Cluster Authentication](#cluster-authentication)
+* [Cluster Management](#cluster-management)
+* [Security](#security)
+
+## Cluster
+
+## Nodes
+
+## Storage
+
+## Networking
+
+## Workloads
 
 ## Cluster Authentication
 
@@ -15,3 +32,7 @@ Amazon EKS uses IAM to provide authentication to your Kubernetes cluster. This i
 
 **Topics**
 * [Create or update a kubeconfig file for Amazon EKS](/walkthrough/cluster-authentication/create-or-update-a-kubeconfig-file-for-amazon-eks.md)
+
+## Cluster Management
+
+## Security
