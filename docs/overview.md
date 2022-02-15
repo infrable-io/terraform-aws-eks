@@ -27,6 +27,14 @@ Amazon EKS runs a single tenant Kubernetes control plane for each cluster. The c
 
 Amazon EKS uses Amazon VPC network policies to restrict traffic between control plane components to within a single cluster. Control plane components for a cluster can't view or receive communication from other clusters or other AWS accounts, except as authorized with Kubernetes RBAC policies. This secure and highly available configuration makes Amazon EKS reliable and recommended for production workloads.
 
-## Architecture
+## Amazon EKS architecture
 
 <!-- Add architecture diagram -->
+
+## `eksctl` vs. AWS Management Console and AWS CLI
+
+There are two methods for creating a new Kubernetes cluster with nodes in Amazon EKS:
+* `eksctl`: a simple command line utility for creating and managing Kubernetes clusters on Amazon EKS
+* AWS Management Console and AWS CLI
+
+This repository uses the latter method.
