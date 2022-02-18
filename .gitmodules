@@ -1,0 +1,3 @@
+[submodule "docs/user-guide"]
+	path = docs/user-guide
+	url = git@github.com:awsdocs/amazon-eks-user-guide.git
