@@ -50,6 +50,8 @@ output:
     * Authorization via native Kubernetes Role Based Access Control (RBAC)
     * AWS Application Load Balancer (ALB) for Kubernetes Ingress
 
+    ## Terraform Module Documentation
+
     <!-- BEGIN_TF_DOCS -->
     {{ .Content }}
     <!-- END_TF_DOCS -->
