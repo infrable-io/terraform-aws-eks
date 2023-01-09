@@ -12,7 +12,7 @@ variable "cluster_version" {
   type        = string
   default     = null
   description = <<-EOF
-  Version of Kubernetes to use for the EKS cluster (ex. 1.21).
+  Version of Kubernetes to use for the EKS cluster (ex. 1.24).
 
   For a list of available versions, see the following documentation:
     * https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html

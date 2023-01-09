@@ -38,7 +38,7 @@ output:
 
     A Terraform module for configuring [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks).
 
-    > Amazon EKS is a managed service that makes it easy for you to use Kubernetes on AWS without needing to install and operate your own Kubernetes control plane.
+    >Amazon EKS is a managed service that makes it easy for you to use Kubernetes on AWS without needing to install and operate your own Kubernetes control plane.
 
     ## Overview
 
