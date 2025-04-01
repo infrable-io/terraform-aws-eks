@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: 'Set up Terraform'
-        uses: hashicorp/setup-terraform@v2
+        uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: 1.11.3
       - name: 'Check formatting'
@@ -21,11 +21,11 @@ jobs:
           terraform init
           terraform validate
       - name: 'Set up TFLint'
-        uses: terraform-linters/setup-tflint@v3
+        uses: terraform-linters/setup-tflint@v4
         with:
           tflint_version: v0.56.0
       - name: 'Run TFLint'
-        run: tflint -recursive
+        run: tflint --recursive
   security-scan:
     runs-on: ubuntu-latest
     needs: validate
