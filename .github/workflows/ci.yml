@@ -17,7 +17,9 @@ jobs:
       - name: 'Check formatting'
         run: terraform fmt -check -recursive
       - name: 'Validate configuration'
-        run: terraform validate
+        run: |
+          terraform init
+          terraform validate
       - name: 'Set up TFLint'
         uses: terraform-linters/setup-tflint@v3
         with:
