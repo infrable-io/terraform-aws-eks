@@ -21,7 +21,7 @@ jobs:
           terraform init
           terraform validate
       - name: 'Set up TFLint'
-        uses: terraform-linters/setup-tflint@v3
+        uses: terraform-linters/setup-tflint@v4
         with:
           tflint_version: v0.56.0
       - name: 'Run TFLint'
