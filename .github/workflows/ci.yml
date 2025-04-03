@@ -37,4 +37,3 @@ jobs:
           directory: .
           skip_check: CKV_TF_1
           framework: terraform
-          output_format: github_failed_only
