@@ -55,7 +55,7 @@ resource "aws_kms_key" "eks" {
 # -----------------------------------------------------------------------------
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "18.5.1"
+  version = "~> 18.0"
 
   cluster_name                    = var.cluster_name
   cluster_version                 = var.cluster_version
@@ -329,6 +329,7 @@ module "vpc" {
 resource "aws_security_group" "additional" {
   name_prefix = "${var.cluster_name}-additional"
   vpc_id      = module.vpc.vpc_id
+  description = "Additional security group for VPC"
 
   ingress {
     description = "Allow ingress on port 22 (SSH) from within VPC"
