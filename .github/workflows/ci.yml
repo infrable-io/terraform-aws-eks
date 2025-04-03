@@ -38,4 +38,3 @@ jobs:
           skip_check: CKV_TF_1
           framework: terraform
           output_format: github_failed_only
-          download_external_modules: true
