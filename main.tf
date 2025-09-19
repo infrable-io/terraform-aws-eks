@@ -135,7 +135,7 @@ module "eks" {
       taints = {
         dedicated = {
           key    = "dedicated"
-          value  = "gpuGroup"
+          value  = "gpu-group"
           effect = "NO_SCHEDULE"
         }
       }

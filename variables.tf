@@ -47,10 +47,10 @@ variable "cluster_endpoint_public_access" {
   description = <<-EOF
   Whether to enable endpoint public access.
 
-  By default, the Kubernetes API server endpoint server endpoint is public to
-  the internet, and access to the API server is secured using a combination of
-  AWS Identity and Access Management (IAM) and native Kubernetes Role Based
-  Access Control (RBAC).
+  By default, the Kubernetes API server endpoint is public to the internet, and
+  access to the API server is secured using a combination of AWS Identity and
+  Access Management (IAM) and native Kubernetes Role Based Access Control
+  (RBAC).
 
   See the AWS documentation on Amazon EKS cluster endpoint access control:
     * https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
