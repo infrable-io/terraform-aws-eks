@@ -252,7 +252,7 @@ resource "null_resource" "patch" {
 # -----------------------------------------------------------------------------
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "~> 3.0"
+  version = "~> 6.4"
 
   name = "${var.cluster_name}-vpc"
   cidr = "10.0.0.0/16"
